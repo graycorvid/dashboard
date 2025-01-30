@@ -5,63 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../public/css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/bb16009335.js"
+      crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <div class="search-section">
-        <input type="search" name="search-bar" id="search-bar" />
-        <button class="notifications">🔔</button>
-        <img src="" alt="user avatar" class="avatar" />
-        <p class="user-name alternate">graycorvid</p>
+      <div class="header-top">
+        <div class="search-section">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="search" name="search-bar" id="search-bar" />
+        </div>
+        <div class="user-section">
+          <i class="fa-regular fa-bell"></i>
+          <div class="image">
+            <img src="./img/crow.png" alt="user avatar" class="avatar" />
+          </div>
+
+          <p class="user-name alternate">Gray Corvid</p>
+        </div>
       </div>
-      <div class="welcome"><p class="user-name">graycorvid</p></div>
-      <div class="functionalities">
-        <button>New</button><button>Upload</button><button>Share</button>
+      <div class="header-bottom">
+        <div class="image-big">
+          <img src="./img/crow.png" alt="user avatar" class="avatar-big" />
+        </div>
+        <div class="welcome">
+          <p class="hi-there">Hi there,</p>
+          <p class="user-name-big">graycorvid</p>
+        </div>
+        <div class="functionalities">
+          <button>New</button><button>Upload</button><button>Share</button>
+        </div>
       </div>
     </header>
+    <aside>
+      <nav>
+        <h1>Dashboard</h1>
+        <div class="menu">
+          <ul>
+            Home
+          </ul>
+          <ul>
+            Profile
+          </ul>
+          <ul>
+            Messages
+          </ul>
+          <ul>
+            History
+          </ul>
+          <ul>
+            Tasks
+          </ul>
+          <ul>
+            Communities
+          </ul>
+        </div>
+        <div class="controls">
+          <ul>
+            Settings
+          </ul>
+          <ul>
+            Support
+          </ul>
+          <ul>
+            Privacy
+          </ul>
+        </div>
+      </nav>
+    </aside>
     <main>
-      <div class="sidebar">
-        <nav>
-          <h1>Crowstagram</h1>
-          <div class="menu">
-            <ul>
-              Home
-            </ul>
-            <ul>
-              Profile
-            </ul>
-            <ul>
-              Messages
-            </ul>
-            <ul>
-              History
-            </ul>
-            <ul>
-              Tasks
-            </ul>
-            <ul>
-              Communities
-            </ul>
-          </div>
-          <div class="controls">
-            <ul>
-              Settings
-            </ul>
-            <ul>
-              Support
-            </ul>
-            <ul>
-              Privacy
-            </ul>
-          </div>
-        </nav>
-      </div>
       <div class="content">
-        <div class="projects">Projects</div>
-        <div class="announcements">Announcements</div>
-        <div class="trending">T rending</div>
+        <div class="projects">
+          <h2>Projects</h2>
+          <div class="project1"></div>
+          <div class="project2"></div>
+          <div class="project3"></div>
+          <div class="project4"></div>
+          <div class="project5"></div>
+          <div class="project6"></div>
+        </div>
+        <div class="announcements"><h2>Announcements</h2></div>
+        <div class="trending"><h2>Trending</h2></div>
       </div>
     </main>
   </body>
 </html>
+<!-- split header and main into two -->
