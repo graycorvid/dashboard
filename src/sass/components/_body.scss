@@ -1,0 +1,7 @@
+@use "../base/typography";
+
+body {
+  font-family: var(--font-primary);
+  width: 100vw;
+  height: 100vh;
+}

@@ -1,0 +1,62 @@
+@use "../base/typography";
+header {
+  .header-bottom {
+    background-color: white;
+  }
+  .search-section {
+    width: 100%;
+    text-align: left;
+  }
+  .user-section {
+    width: 100%;
+  }
+  p {
+    display: inline-block;
+    padding: 0.6em;
+    font-size: 1em;
+    font-weight: var(--font-bold);
+  }
+  .image {
+    padding: 0.6em;
+    background-color: rgb(176, 230, 248);
+    border-radius: 100%;
+    .avatar {
+      width: 1.4em;
+      height: 1.4em;
+      display: block;
+    }
+  }
+
+  .image-big {
+    margin-left: 2.4em;
+    padding: 1em;
+    background-color: rgb(176, 230, 248);
+    border-radius: 100%;
+    .avatar-big {
+      width: 2.2em;
+      height: 2.2em;
+      display: block;
+    }
+  }
+  .welcome {
+    .hi-there {
+      font-size: 0.6em;
+    }
+  }
+  input {
+    width: 75%;
+    padding: 4px 10px;
+    font-size: 1.2em;
+    background-color: rgba(227, 231, 239, 100%);
+    border: none;
+    border-radius: 20px;
+  }
+  .fa-magnifying-glass {
+    margin-left: 1.4em;
+    padding: 1em;
+    font-size: 1em;
+  }
+  .fa-bell {
+    font-size: 1.2em;
+  }
+}
