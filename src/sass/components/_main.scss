@@ -1,0 +1,13 @@
+@use "../base/typography";
+
+main {
+  background-color: var(--color-fourth);
+}
+.projects {
+  div {
+    margin: 1rem 1.5rem;
+    background-color: var(--color-second);
+    border-left: var(--color-accent) 0.5rem solid;
+    border-radius: 10px;
+  }
+}

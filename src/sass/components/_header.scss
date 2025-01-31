@@ -10,11 +10,21 @@ header {
   .user-section {
     width: 100%;
   }
+  .user-name {
+    padding: 0.6em;
+  }
   p {
     display: inline-block;
-    padding: 0.6em;
     font-size: 1em;
     font-weight: var(--font-bold);
+  }
+  input {
+    width: 75%;
+    padding: 4px 10px;
+    font-size: 1.2em;
+    background-color: rgba(227, 231, 239, 100%);
+    border: none;
+    border-radius: 20px;
   }
   .image {
     padding: 0.6em;
@@ -29,28 +39,35 @@ header {
 
   .image-big {
     margin-left: 2.4em;
-    padding: 1em;
+    padding: 0.8em;
     background-color: rgb(176, 230, 248);
     border-radius: 100%;
     .avatar-big {
-      width: 2.2em;
-      height: 2.2em;
+      width: 2em;
+      height: 2em;
       display: block;
     }
   }
   .welcome {
+    padding: 0.9em;
     .hi-there {
-      font-size: 0.6em;
+      margin-bottom: 0.6em;
+      font-size: 0.7em;
     }
   }
-  input {
-    width: 75%;
-    padding: 4px 10px;
-    font-size: 1.2em;
-    background-color: rgba(227, 231, 239, 100%);
-    border: none;
-    border-radius: 20px;
+  .buttons {
+    width: 100%;
+    button {
+      padding: 0.7em;
+      font-size: 0.8em;
+      font-weight: var(--font-bold);
+      color: var(--color-second);
+      background-color: var(--color-third);
+      border: none;
+      border-radius: 14px;
+    }
   }
+
   .fa-magnifying-glass {
     margin-left: 1.4em;
     padding: 1em;

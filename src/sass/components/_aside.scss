@@ -1,0 +1,21 @@
+@use "../base/typography";
+
+nav {
+  height: 100vh;
+  width: 100%;
+  color: var(--color-second);
+  background-color: var(--color-third);
+}
+h1 {
+  padding-left: 1rem;
+  font-size: 2rem;
+  i {
+    padding-right: 1rem;
+  }
+}
+ul {
+  padding-left: 2rem;
+  i {
+    padding-right: 1rem;
+  }
+}
