@@ -2,12 +2,39 @@
 
 main {
   background-color: var(--color-fourth);
+  h2 {
+    font-size: 1rem;
+    font-weight: var(--font-normal);
+    margin: 0 0.8rem;
+  }
+  h3 {
+    font-size: 0.9rem;
+    font-weight: var(--font-h3);
+  }
 }
-.projects {
-  div {
-    margin: 1rem 1.5rem;
-    background-color: var(--color-second);
-    border-left: var(--color-accent) 0.5rem solid;
-    border-radius: 10px;
+.project {
+  margin: 0.8rem 0.8rem;
+  padding: 0.8rem 1rem;
+  position: relative;
+  background-color: var(--color-second);
+  border-left: var(--color-accent) 0.5rem solid;
+  border-radius: 10px;
+  p {
+    margin-top: -0.6rem;
+    font-size: 0.8rem;
+    color: var(--color-small-text);
+  }
+  .icons {
+    position: absolute;
+    bottom: 0;
+    right: 0.8rem;
+    padding: 0 1.5rem;
+    font-size: 1rem;
+    color: var(--color-small-icon);
+  }
+}
+.icons {
+  i {
+    padding: 0 1rem;
   }
 }
