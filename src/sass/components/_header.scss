@@ -1,5 +1,7 @@
 @use "../base/typography";
 header {
+  box-shadow: 0px 4px 10px -2px var(--color-small-line);
+  z-index: 1;
   .header-bottom {
     background-color: white;
   }
@@ -49,7 +51,7 @@ header {
     }
   }
   .welcome {
-    padding: 0.9em;
+    padding: 0.6em;
     .hi-there {
       margin-bottom: 0.6em;
       font-size: 0.7em;
