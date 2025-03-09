@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "sass-dev": "sass --watch --style=expanded src/sass:src/css",
-    "sass-prod": "sass --no-source-map --style=compressed src/sass:src/css"
+    "sass-prod": "sass --no-source-map --style=compressed src/sass:src/css",
+    "build": "npm run sass-prod"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
