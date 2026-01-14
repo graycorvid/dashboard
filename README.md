@@ -4,7 +4,7 @@ This project is a dashboard layout built using **HTML** and **CSS Grid**. It was
 
 ## 📌 Project Overview
 
-The goal of this project was to replicate a given design as closely as possible while focusing on proper **grid layout techniques**. The dashboard consists of:
+The goal of this project was to replicate a [given design](https://raw.githubusercontent.com/TheOdinProject/curriculum/43cc6ab69fdfbef40d431a65677d2144668930ac/intermediate_html_css/grid/project_admin_dashboard/imgs/dashboard-project.png) as closely as possible while focusing on proper **grid layout techniques**. The dashboard consists of:
 
 - A **sidebar** for navigation and branding.
 - A **header** that includes a search bar, user information, and buttons.
